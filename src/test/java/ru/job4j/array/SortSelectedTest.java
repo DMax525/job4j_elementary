@@ -21,7 +21,7 @@ public class SortSelectedTest {
     }
 
     @Test
-    public void whenSortArrayOf5elements_2() {
+    public void whenSortArrayOf5elements2() {
         int[] data = new int[] {7, 3, 8, 9, 1};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[] {1, 3, 7, 8, 9};
